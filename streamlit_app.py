@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 
 st.set_page_config(layout="wide")
-st.image("banner_logo.svg")
+st.image("banner_logo.svg",width=500)
 st.title("Craft Web Apps. Just Like This. GDSC's Streamlit Workshop Shows You How")
 
 st.markdown("""### What songs were popular when I was in high school?
