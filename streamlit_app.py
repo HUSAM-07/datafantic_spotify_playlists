@@ -1,12 +1,14 @@
 import pandas as pd
 import streamlit as st
 
-st.markdown("""# What songs were popular when I was in high school?
+st.set_page_config(layout="wide")
+st.image("banner_logo.svg")
+st.title("Craft Web Apps. Just Like This. GDSC's Streamlit Workshop Shows You How")
+
+st.markdown("""### What songs were popular when I was in high school?
 The algorithm doesn't get you, we get that a lot. Maybe you want to rediscover the top songs from your high school days. Or maybe you just don't want to mess with making your own playlist. 
 
 You can use this tool to find a pre-generated playlist of every song that made the Top 10 in the US for the years you select. 
-
-This originally appeared on [Datafantic.com](https://www.datafantic.com/what-songs-were-popular-when-i-was-in-high-school).
 """)
 
 df = pd.read_csv("playlists.csv")
@@ -31,3 +33,5 @@ if st.button('Submit'):
         st.markdown(link, unsafe_allow_html=True)
     else:
         st.markdown(playlist)
+st.link_button("Become a GDSC Member","https://forms.gle/FmSSh1MFJzvztvnZ6")
+st.image("member.svg",width=200)
