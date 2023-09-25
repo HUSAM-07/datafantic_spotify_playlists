@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 
-st.set_page_config(layout="wide",page_title="Streamlit Workshop by GDSC",page_icon="member.svg")
+st.set_page_config(layout="wide",page_title="Streamlit Workshop by GDSC",page_icon="favicon.svg")
 st.image("banner_logo.svg",use_column_width="auto",width="200")
 st.title("Craft Web Apps. Just Like This. GDSC's Streamlit Workshop Shows You How")
 
