@@ -4,7 +4,9 @@ import streamlit as st
 st.set_page_config(layout="wide",page_title="Streamlit Workshop by GDSC",page_icon="favicon.svg")
 st.image("banner_logo.svg",use_column_width="auto",width="200")
 st.title("Craft Web Apps. Just Like This. GDSC's Streamlit Workshop Shows You How")
-
+st.header("Tapasya's App")
+st.text("A compiled version of the best Japanese Songs")
+st.link_button("Tapasya's Playlist","https://spotify.link/zyrgfXIHoDb")
 st.markdown("""### What songs were popular when I was in high school?
 The algorithm doesn't get you, we get that a lot. Maybe you want to rediscover the top songs from your high school days. Or maybe you just don't want to mess with making your own playlist. 
 
